@@ -139,7 +139,7 @@ public class Canvas {
      * @param handler reference to the MouseListener object
      */
     public void addMouseListener(MouseListener handler) {
-        frame.addMouseListener(handler);
+        component.addMouseListener(handler);
     }
 
     class CanvasComponent extends JComponent {
